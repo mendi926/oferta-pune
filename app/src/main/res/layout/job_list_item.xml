@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:background="@drawable/cardshape" >
+
+    <ImageView
+        android:id="@+id/logoimg"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/skalogo"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"/>
+
+    <ImageView
+        android:id="@+id/clocktime"
+        android:layout_width="12.5dp"
+        android:layout_height="15dp"
+        android:background="@drawable/clocktime"
+        android:layout_toLeftOf="@+id/skadimi"
+        android:layout_below="@+id/pozita"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="2dp"
+        />
+
+    <ImageView
+        android:id="@+id/location"
+        android:layout_width="11dp"
+        android:layout_height="15dp"
+        android:background="@drawable/location"
+        android:layout_toLeftOf="@+id/qyteti"
+        android:layout_below="@+id/pozita"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="2dp"
+        />
+ 
+
+    <TextView
+        android:id="@+id/kompania"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/logoimg"
+        android:layout_marginLeft="5dp"
+        android:text="Kompania"
+
+        />
+
+    <TextView
+        android:id="@+id/pozita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/logoimg"
+        android:layout_below="@id/kompania"
+        android:layout_marginLeft="5dp"
+        android:text="Pozita"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+
+
+
+
+    <TextView
+        android:id="@+id/qyteti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qyteti"
+        android:layout_toLeftOf="@id/clocktime"
+        android:layout_below="@id/pozita"
+
+        />
+
+
+ 
+    <TextView
+        android:id="@+id/skadimi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="28.04.2015"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/pozita"
+        />
+
+    <CheckBox
+        android:id="@+id/fav_butt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@android:drawable/btn_star"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:focusable="false"
+        />
+
+
+</RelativeLayout>

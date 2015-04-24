@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fbutton_color_clouds"
+    tools:context=".MainActivity">
+
+
+    <com.quentindommerc.superlistview.SuperListview
+        xmlns:superlistview="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:fastScrollEnabled="false"
+        superlistview:superlv__listClipToPadding="false"
+        superlistview:superlv__listDivider="@android:color/transparent"
+        superlistview:superlv__empty="@layout/empty"
+        superlistview:superlv__listDividerHeight="7dp"
+        superlistview:superlv__listPadding="7dp"
+        superlistview:superlv__scrollbarStyle="outsideOverlay" >
+    </com.quentindommerc.superlistview.SuperListview>
+
+</LinearLayout>

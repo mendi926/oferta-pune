@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff">
+
+<LinearLayout
+  android:layout_margin="5dp"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:background="#ffffffff"
+  >
+
+
+  <TextView
+    android:id="@+id/frag_kompaniatitle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Punëdhënësi:"
+    style="@style/textTitle"
+       />
+
+   <TextView
+        android:id="@+id/frag_kompania"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Punëdhënësi"
+        style="@style/textDesc"
+     />
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        />
+
+  <TextView
+    android:id="@+id/frag_pozitatitle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Pozita:"
+    style="@style/textTitle"
+       />
+
+
+    <TextView
+        android:id="@+id/frag_pozita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pozita"
+        style="@style/textDesc"
+        />
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        />
+
+  <TextView
+    android:id="@+id/frag_qytetititle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Qyteti:"
+      style="@style/textTitle"
+        />
+
+
+  <TextView
+    android:id="@+id/frag_qyteti"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Qyteti"
+    style="@style/textDesc"
+        />
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        />
+
+
+    <TextView
+    android:id="@+id/frag_skadimititle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Skadimi:"
+    style="@style/textTitle"
+        />
+
+    <TextView
+        android:id="@+id/frag_skadimi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skadimi"
+        style="@style/textDesc"
+     />
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <TextView
+        android:id="@+id/frag_orarititle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Orari:"
+        style="@style/textTitle"
+     />
+
+    <TextView
+        android:id="@+id/frag_orari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Orari"
+        style="@style/textDesc"
+     />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <TextView
+        android:id="@+id/frag_kontakttitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kontakti:"
+        style="@style/textTitle"
+        />
+
+    <TextView
+        android:id="@+id/frag_kontakt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kontakti"
+        style="@style/textDesc"
+        />
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <TextView
+        android:id="@+id/frag_pershkrimititle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Përshkrimi:"
+        style="@style/textDesc"
+        android:layout_marginBottom="5dp"
+        />
+
+    <TextView
+        android:id="@+id/frag_pershkrimi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Përshkrimi"
+        android:textSize="14sp"
+        android:paddingBottom="10dp"
+        />
+
+
+
+
+</LinearLayout>
+</ScrollView>

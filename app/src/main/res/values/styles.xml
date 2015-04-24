@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="android:colorPrimary">@color/fbutton_color_turquoise</item>
+        <item name="android:colorPrimaryDark">@color/fbutton_color_green_sea</item>
+
+    </style>
+
+    <style name="textTitle">
+        <item name="android:textColor">@color/fbutton_color_green_sea</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+
+
+    </style>
+
+    <style name="textDesc">
+        <item name="android:textColor">@color/fbutton_color_green_sea</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+
+</resources>

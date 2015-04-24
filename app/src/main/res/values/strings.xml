@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DBTest</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_search">Search</string>
+    <string name="action_clear">Clear</string>
+    <string name="oferta_pune">Oferta pune të reja!</string>
+    <string name="kliko">Kliko këtu për t\'i shikuar</string>
+
+    <string name="oferta_pune1"> Ofertë pune të re!</string>
+    <string name="kliko1"> Kliko këtu për ta shikuar</string>
+
+    <string name="start_polling"> Fillo njoftimet</string>
+    <string name="stop_polling"> Ndal njoftimet</string>
+</resources>
